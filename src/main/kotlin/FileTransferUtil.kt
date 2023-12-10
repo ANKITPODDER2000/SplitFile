@@ -5,7 +5,7 @@ import java.lang.Exception
 
 object FileTransferUtil {
 
-    private const val MAX_FILE_SIZE_IN_MB = 1
+    private const val MAX_FILE_SIZE_IN_MB = 0.25
     private const val BUFFER_SIZE = 1024 // 1 KB
 
     private fun isSplitRequired(file: File): Boolean {
